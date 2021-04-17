@@ -15,7 +15,9 @@ Summary: Parse a CSV file containing corporate profits over the years. Print out
 
 ## Tests
 Some optional tests are included. To run:
+
 `npm install`
+
 `npm run test`
 
 ## Output
@@ -166,11 +168,17 @@ Some optional tests are included. To run:
 ]
 ```
 
-## Code Overview:
+## File Overview:
 run.sh - script to run the challenge solution (highestProfit.js)
-package.json - required packages to run the testss
+
+package.json - required packages to run the tests
+
 data/data.csv - source data for the challenge
+
 data/test.csv - subset of data used for manual testing
+
 src/parse.js - functions implementing the logic for this challenge
+
 test/sanity.test.js - short tests of the non-I/O functions
+
 highestProfit.js - top-level solution for challenge

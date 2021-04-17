@@ -16,10 +16,10 @@ function main() {
   }
 
   const dataAsRows = dataToRows(dataIn);
-  console.log(`${dataAsRows.length-1} rows of data read in.`);
+  console.log(`${dataAsRows.length} rows of data read in.`);
 
   const dataAsRowsClean = removeRowsWithNonNumericProfit(dataAsRows);
-  console.log(`${dataAsRowsClean.length-1} rows after removing invalid data.`);
+  console.log(`${dataAsRowsClean.length} rows after removing invalid data.`);
 
   const dataAsJson = dataToJson(dataAsRowsClean);
 

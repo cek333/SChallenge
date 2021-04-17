@@ -22,8 +22,8 @@ Some optional tests are included. To run:
 
 ## Output
 ```
-25499 rows of data read in.
-25130 rows after removing invalid data.
+25500 rows of data read in.
+25131 rows after removing invalid data.
 [
   {
     year: 2005,

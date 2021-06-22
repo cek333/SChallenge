@@ -182,3 +182,5 @@ src/parse.js - functions implementing the logic for this challenge
 test/sanity.test.js - short tests of the non-I/O functions
 
 highestProfit.js - top-level solution for challenge
+
+Small change.
